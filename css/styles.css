@@ -1,0 +1,148 @@
+body {
+  /* color: #40514e; */
+  margin: 0;
+  font-family: 'Vidaloka', serif;
+  font-size: 18px;
+  text-align: center;
+  /* font-family: 'Vidaloka',serif; */
+}
+
+h1 {
+  color: #66bfbf;
+  font-size: 6rem;
+  /* 100%=1px  1em=16px r=root */
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: 'Vidaloka', sans-serif;
+  font-size: 2.4rem;
+  font-weight: normal;
+  /* line-height: 2; */
+}
+
+h3 {
+  color: #11999e;
+  font-family: 'Vidaloka', sans-serif;
+  font-size: 1.45rem;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999e;
+  font-family: 'Vidaloka', sans-serif;
+  margin: 10px 5px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+hr {
+  /* border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 3%;
+  margin: 100px auto; */
+
+  border: dotted #eaf6f6;
+  border-bottom: none;
+  border-width: 20px;
+  width: 5%;
+  margin: 80px auto 80px;
+  /* top left-right bottom */
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 60px 0 100px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 275px;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 30px 0 20px;
+  /* top left-right bottom */
+}
+
+.me {
+  width: 22rem;
+  border-radius: 100%;
+}
+
+.heading {
+  font-family: 'Sacramento', cursive;
+  font-size: 4.5rem;
+  margin-bottom: 2rem;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 80px auto 80px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+  /* top left-right bottom */
+}
+
+.copyright {
+  font-size: 1rem;
+  padding: 5px 0;
+  margin-bottom: 0;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Vidaloka', sans-serif;
+  color: #11999e;
+  font-size: 20px;
+  background: #f2f2f2;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #11999e;
+  background: #beebe9;
+  text-decoration: none;
+}
